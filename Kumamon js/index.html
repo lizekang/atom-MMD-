@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MMD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        @font-face
+        {
+            font-family: myFirstFont;
+            src: url("字体/Kim's%20GirlType.ttf");
+        }
+        html,body {
+            background-color: transparent;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        div {
+            width: 100%;
+            height: 100%;
+        }
+        .text{
+            width: 100%;
+            height: 20%;
+            bottom: 3%;
+            text-align: center;
+            position: absolute;
+            display: none;
+            color: white;
+            font-size:40px;
+            font-family: myFirstFont;
+            font-weight: 800;
+        }
+    </style>
+</head>
+
+<body>
+<div class="text" id="text0">本宝宝驾到！！！</div>
+<div class="text" id="text1">看什么看，还不快撸代码</div>
+<div class="text" id="text2">智商低就不要撸代码了，好吗</div>
+<div class="text" id="text3">辣鸡，代码又出bug了吧</div>
+<div class="text" id="text4">宝宝要表演了，赶快膜拜我的曼妙身姿</div>
+<div class="text" id="text5">代码大完成！</div>
+<div class="text" id="text6">mt说饭已经做好了，水已经放好了，你是先吃饭还是先吃他</div>
+
+
+<!-- TODO 控制音乐播放 -->
+<audio src="yinyue/A%20Little%20Story.mp3" id="miku-music" class="music"></audio>
+<audio src="yinyue/舞姿/嫁到.mp3" id="music0" class="music"></audio>
+<audio src="yinyue/舞姿/看什么看.mp3" id="music1" class="music"></audio>
+<audio src="yinyue/舞姿/智商低.mp3" id="music2" class="music"></audio>
+<audio src="yinyue/舞姿/BUG1.mp3" id="music3" class="music"></audio>
+<audio src="yinyue/舞姿/舞姿.mp3" id="music4" class="music"></audio>
+<audio src="yinyue/舞姿/吃饭.mp3" id="music6" class="music"></audio>
+<audio src="yinyue/舞姿/大完成.mp3" id="music5" class="music"></audio>
+
+<script src="three.js"></script>
+<script src="MMDLoader.js"></script>
+<script src="MorphAnimation2.js"></script>
+<script src="CCDIKSover.js"></script>
+<script src="mainV2.js"></script>
+
+</body>
+</html>
